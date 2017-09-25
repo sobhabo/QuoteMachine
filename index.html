@@ -6,17 +6,27 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
     <title>QUOTEMACHINE</title>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<script src="https://use.fontawesome.com/b1c6232327.js"></script>
   </head>
   <body>
- <div class="quote-box  ">
-
+  <div class="quote-box ">
   <div class="text"></div>
   <div class="author"></div>
-  <button type="button" name="button" class="button">NewQuote</button>
+  <div >
+  <button class="button float-right"  type="button" name="button" >NewQuote</button>
 
+  <button type="button" name="button" class="button" id="tweet-quote" title="Tweet this quote!" target="_blank">
+  <a href="https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=%22Dancing%20is%20silent%20poetry.%22%20Simonides">   <i class="fa fa-twitter"></i>
+</button>
+  <button type="button" name="button" class="button" id="tumblr-quote" title="Post this quote on tumblr!" target="_blank">
+    <a href="https://www.tumblr.com/login?redirect_to=https%3A%2F%2Fwww.tumblr.com%2Fwidgets%2Fshare%2Ftool%3Fposttype%3Dquote%26tags%3Dquotes%252Cfreecodecamp%26caption%3DSimonides%26content%3DDancing%2Bis%2Bsilent%2Bpoetry.%26canonicalUrl%3Dhttps%253A%252F%252Fwww.tumblr.com%252Fbuttons%26shareSource%3Dtumblr_share_button%26_format%3Dhtml" >    <i class="fa fa-tumblr"></i>
+  </button>
+</div>
 
+</div>
 
- </div>
   <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
   <script src="assets/script.js"></script>
     </body>
